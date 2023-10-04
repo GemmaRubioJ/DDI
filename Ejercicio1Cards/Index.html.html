@@ -14,7 +14,17 @@
 		}
         .green
         {
-            background-color: rgb(64, 126, 64);
+            background-color: rgb(72, 140, 72);
+        }
+
+        .red
+        {
+            background-color: rgb(185, 70, 70);
+        }
+
+        .blue
+        {
+            background-color: rgb(76, 76, 231);
         }
         
         .button
@@ -27,6 +37,14 @@
             margin-left: 1%;
             display: flex;
         }
+
+        .icon-title
+        {
+            padding-left: 2%;
+            padding-right: 2%;
+            height: 40px;
+        }
+
 	</style>
 </head>
 
@@ -41,10 +59,20 @@
             <div class="row ">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                         <div class="card" style=" width: 40rem; height: 280px;" >
-                            <div class="col-12 green "">
-                                <img src="tree-fill.svg" class="img-fluid rounded-start" alt="Responsive image">
-                                
+                            <div class="card-title ">
+                               <div class="row icon-title">
+                                    <div class="col-2 green">
+                                        <img src="tree-fill-negro.svg" class="img-fluid rounded-start" alt="Responsive image" style="height: 30px;">
+                                    </div>
+                                    <div class="col-2 red">
+                                        <img src="dartboard.svg" class="img-fluid rounded-start" alt="Responsive image" style="height: 30px;">
+                                    </div>
+                                    <div class="col-8 blue">
+                                        <img src="laboratory.svg" class="img-fluid rounded-start" alt="Responsive image" style="height: 30px;"">
+                                    </div> 
+                                </div>
                             </div>
+                            
                         <div class="card-body">
                             <h3 class="card-title">Card</h3>
                             <p class="card-text">With supporting text below as a natural led-in to additional content</p>
@@ -58,7 +86,7 @@
                     <div class="card mb-3" style="max-width: 40rem; height: 220px;">
                         <div class="row g-0">
                           <div class="col-md-6 green" >
-                            <img src="tree-fill.svg" class="img-fluid rounded-start" alt="Responsive image">
+                            <img src="tree-fill-negro.svg" class="img-fluid rounded-start" alt="Responsive image" style="height: 100px;">
                           </div>
                           <div class="col-md-6">
                             <div class="card-body">
@@ -69,10 +97,8 @@
                             </div>
                           </div>
                         </div>
-                      </div>
-    
-    
-    
+                    </div>
+                </div>
             </div>
         </div>
 
