@@ -1,0 +1,27 @@
+
+.head {
+    background-color: rgb(124,156,162);
+}
+.body{
+    background-color: #efefef;
+}
+
+.tituloestablecimiento{
+    justify-content: center;
+    text-align: center;
+    margin: 3%;
+    color: rgb(67,67,65);
+    font-size: large;
+}
+
+.footer
+{
+    background-color: rgb(124,156,162);
+}
+
+.fondotransparente1{
+    background-color:  rgb(175,209,214);
+    opacity: 0.9;
+    border-radius: 6px;
+
+}
