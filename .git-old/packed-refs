@@ -1,0 +1,6 @@
+# pack-refs with: peeled fully-peeled sorted 
+15bae6faf3a706da57b5b33639d5ac809d059ebf refs/heads/main
+d252149a2767d3b51d2599db40bf22fb88d86b74 refs/heads/prueba
+8c02a71774aa36210dc0f44825a2fb7c9bc1f888 refs/remotes/origin/GemmaRubioJ-patch-1
+15bae6faf3a706da57b5b33639d5ac809d059ebf refs/remotes/origin/main
+15bae6faf3a706da57b5b33639d5ac809d059ebf refs/remotes/origin/prueba
